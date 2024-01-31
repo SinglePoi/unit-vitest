@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Go Started
-      link: /theory/why
+      link: /why/why
     - theme: alt
       text: API Examples
       link: /api-examples
