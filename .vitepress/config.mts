@@ -13,11 +13,18 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "理论",
+        text: "why",
         items: [
-          { text: "为什么要写单元测试", link: "/theory/why" },
-          { text: "单元测试的定义", link: "/theory/what" },
-          { text: "单元测试的时机", link: "/theory/when" },
+          { text: "为什么要写单元测试", link: "/why/why" },
+          { text: "单元测试的定义", link: "/why/what" },
+          { text: "单元测试的时机", link: "/why/when" },
+          { text: "不写测试的原因", link: "/why/whyNotTest" },
+        ],
+      },
+      {
+        text: "how",
+        items: [
+          { text: "手动和自动的区别", link: "/how/howtodo" },
         ],
       },
     ],
