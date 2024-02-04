@@ -25,6 +25,7 @@ export default defineConfig({
         text: "how",
         items: [
           { text: "手动和自动的区别", link: "/how/howtodo" },
+          { text: "使用测试框架", link: "/how/instrument" },
         ],
       },
     ],
