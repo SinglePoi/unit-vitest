@@ -1,4 +1,4 @@
-# Vitest 的测试 API
+# 常用的 Vitest API
 
 ## test 和 it
 
@@ -62,9 +62,18 @@ beforeAll 和 afterAll 和每个测试文件相关联，在整个测试的生命
 ```ts
 beforeAll(() => {
     console.log('before all')
+    return () => {
+        // 等同于 afterAll
+        // 可以直接用到 beforeAll 的变量
+        // 顺序在真实 afterAll 之后
+    }
 }) 
 beforeEach(() => {
     console.log('before each')
+    return () => {
+        // 等同于 afterEach
+        // 同
+    }
 }) 
 test('should one', () => {
     console.log('it should one')
@@ -90,6 +99,22 @@ result is
 - after all
 ```
 
+## Test API
 
+```typescript
+// describe 等同
 
-skip\only
+test.skip() // 跳过测试单元  
+test.only() // 仅执行修饰测试单元  
+test.todo() // 待办测试任务  
+```
+
+## scripts
+
+```json
+// in package.json
+scripts: {
+    'test': 'vitest', // watch 模式执行测试
+    'test': 'vitest run', // 每次重启测试
+}
+```
