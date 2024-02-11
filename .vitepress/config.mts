@@ -28,6 +28,7 @@ export default defineConfig({
           { text: "使用测试框架", link: "/how/instrument" },
           { text: "Vitest API", link: "/how/vitest-api" },
           { text: "Vitest Debug", link: "/how/vitest-debug" },
+          { text: "Mini Vitest API", link: "/how/mini-vitest" },
         ],
       },
     ],
