@@ -29,6 +29,7 @@ export default defineConfig({
           { text: "Vitest API", link: "/how/vitest-api" },
           { text: "Vitest Debug", link: "/how/vitest-debug" },
           { text: "Mini Vitest API", link: "/how/mini-vitest" },
+          { text: "Vitest & Jest", link: "/how/vitestandjest" },
         ],
       },
     ],
