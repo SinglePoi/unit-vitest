@@ -36,7 +36,8 @@ export default defineConfig({
         text: '测试四部曲',
         items: [
           { text: '准备测试数据', link: '/how/to-created' },
-          { text: '后门测试', link: '/how/backdoor' }
+          { text: '后门测试', link: '/how/backdoor' },
+          { text: '最小数据准备原则', link: '/how/minimum' },
         ]
       }
     ],
