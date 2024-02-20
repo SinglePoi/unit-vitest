@@ -38,7 +38,8 @@ export default defineConfig({
           { text: '准备测试数据', link: '/how/to-created' },
           { text: '后门测试', link: '/how/backdoor' },
           { text: '最小数据准备原则', link: '/how/minimum' },
-          { text: '间接输入', link: '/how/indirect' },
+          { text: '程序的间接输入（一）', link: '/how/indirect' },
+          { text: '程序的间接输入（二）', link: '/how/indirect2' },
         ]
       }
     ],
