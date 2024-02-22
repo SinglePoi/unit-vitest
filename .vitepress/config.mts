@@ -40,6 +40,8 @@ export default defineConfig({
           { text: '最小数据准备原则', link: '/how/minimum' },
           { text: '程序的间接输入（一）', link: '/how/indirect' },
           { text: '程序的间接输入（二）', link: '/how/indirect2' },
+          { text: '程序的间接输入（三）', link: '/how/indirect3' },
+          { text: '程序的间接输入（四）', link: '/how/indirect4' },
         ]
       }
     ],
