@@ -43,6 +43,12 @@ export default defineConfig({
           { text: '程序的间接输入（三）', link: '/how/indirect3' },
           { text: '程序的间接输入（四）', link: '/how/indirect4' },
         ]
+      },
+      {
+        text: '验证测试',
+        items: [
+          { text: '状态验证', link: '/expect/status' },
+        ]
       }
     ],
 
