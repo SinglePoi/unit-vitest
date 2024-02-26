@@ -48,6 +48,7 @@ export default defineConfig({
         text: '验证测试',
         items: [
           { text: '状态验证', link: '/expect/status' },
+          { text: '行为验证', link: '/expect/action' },
         ]
       }
     ],
