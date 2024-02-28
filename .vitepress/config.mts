@@ -50,6 +50,7 @@ export default defineConfig({
           { text: '状态验证', link: '/expect/status' },
           { text: '行为验证', link: '/expect/action' },
           { text: '验证目标', link: '/expect/target' },
+          { text: '可预测性', link: '/expect/predictability' },
         ]
       }
     ],
