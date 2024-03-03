@@ -51,6 +51,13 @@ export default defineConfig({
           { text: '行为验证', link: '/expect/action' },
           { text: '验证目标', link: '/expect/target' },
           { text: '可预测性', link: '/expect/predictability' },
+          { text: '快速反馈', link: '/expect/quest' },
+        ]
+      },
+      {
+        text: '第三方库',
+        items: [
+          { text: 'flush-promises', link: '/npm/flush-promises' },
         ]
       }
     ],
